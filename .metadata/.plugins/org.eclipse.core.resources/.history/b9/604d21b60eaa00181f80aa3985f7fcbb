@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class ConversaoNumerica {
+     public static void main(String[] args) {
+		//Exemplo 1 - Conversão Explicita onde é obrigado converter e estou ciente
+    	 float f = (float) 0.1; //Eu tenho um double e estou convertendo para float
+    	 System.out.println(f);
+	}
+}
