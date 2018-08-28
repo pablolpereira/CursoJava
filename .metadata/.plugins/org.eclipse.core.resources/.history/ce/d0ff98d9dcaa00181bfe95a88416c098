@@ -1,0 +1,14 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class OperadorTernario {
+	public static void main(String[] args) {
+		String nota = JOptionPane.showInputDialog("Qual é a Nota?");
+		//Se a nota for maior que 7, recebe aprovado, senao Recuperação
+		String resultado = nota > 7 ? "Aprovado" : "Recuperação";
+		
+		System.out.println(resultado);
+	}
+
+}

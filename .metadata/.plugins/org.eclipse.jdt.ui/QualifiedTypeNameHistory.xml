@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
