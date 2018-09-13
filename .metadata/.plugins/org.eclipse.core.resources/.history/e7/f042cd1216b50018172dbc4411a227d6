@@ -1,0 +1,10 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioConceitoBasico_4 {
+	public static void main(String[] args) {
+		int valor = JOptionPane.showInputDialog("Insira um Número: ");
+	}
+
+}

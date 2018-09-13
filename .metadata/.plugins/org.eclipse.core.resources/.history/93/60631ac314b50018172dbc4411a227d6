@@ -1,0 +1,10 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class ExecicioConceitoBasico_3 {
+	public static void main(String[] args) {
+		String peso = JOptionPane.showInputDialog("Qual é o seu peso? ");
+		String altura = JOptionPane.showInputDialog("Qual é a sua altura?");
+	}
+}

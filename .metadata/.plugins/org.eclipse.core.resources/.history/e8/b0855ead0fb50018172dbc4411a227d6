@@ -1,0 +1,11 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioConceitoBasico_1 {
+	public static void main(String[] args) {
+		String tempCelsius = JOptionPane.showInputDialog("Qual é a Temperatura em Celsius?");
+		//String temFahre = 
+	}
+
+}

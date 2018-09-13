@@ -1,0 +1,17 @@
+package fundamentos;
+
+import java.text.DecimalFormat;
+
+import javax.swing.JOptionPane;
+
+
+public class ExercicioConceitoBasico_2 {
+	public static void main(String[] args) {
+		String tempFahrenheit = JOptionPane.showInputDialog("Qual é a temperatura em Fahrenheit?");
+		Double resultado = (Double.parseDouble(tempFahrenheit) - 32) / 1.8 ;
+		resultado = new DecimalFormat("0.00").format(resultado);
+		System.out.println("Temperatura em Celsius: " + resultado);
+		
+	}
+
+}
